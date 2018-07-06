@@ -76,7 +76,9 @@ class UsersListViewController: UIViewController {
     }
     
     func listenToResponses() {
-        Firestore.firestore().collection("challenges").document(userId).collection("responses").whereField("seen", isEqualTo: false).order(by: "date", descending:true).addSnapshotListener { (ss, err) in
+       
+        Firestore.firestore().collection("challenges").document(userId).collection("responses").order(by: "date", descending:true).addSnapshotListener { (ss, err) in
+            print("response received")
             if let snapshot = ss{
                 if let doc = snapshot.documents.first{
                     let response = Challenge.createWith(data: doc.data())
@@ -87,6 +89,8 @@ class UsersListViewController: UIViewController {
                     }
                     
                     Firestore.firestore().collection("challenges").document(self.userId).collection("responses").document(doc.documentID).delete()
+                    //lkjlkj
+                    
                 }
             }
         }

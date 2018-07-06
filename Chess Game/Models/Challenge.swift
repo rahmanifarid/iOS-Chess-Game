@@ -24,7 +24,12 @@ struct Challenge{
         let delegate = UIApplication.shared.delegate as! AppDelegate
         let userId = delegate.userId!
         let response = ["id": id!, "gameId": gameId!, "accepted": accepted, "senderId": userId, "date": Date(), "playerPlayingWhite":playerPlayingWhite!] as [String : Any]
-        Firestore.firestore().collection("challenges").document(senderId!).collection("responses").addDocument(data: response)
+        Firestore.firestore().collection("challenges").document(senderId!).collection("responses").addDocument(data: response) { (err) in
+            if let error = err{
+                print(error.localizedDescription)
+            }
+            print("Response sent")
+        }
         Firestore.firestore().collection("challenges").document(userId).collection("pending").document(id!).delete()
     }
     
