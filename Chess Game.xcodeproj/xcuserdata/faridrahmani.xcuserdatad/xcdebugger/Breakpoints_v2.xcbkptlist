@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Chess Game/ViewController.swift"
+            timestampString = "551849478.015241"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "variable initialization expression of Chess_Game.ViewController.chessBoard : Chess_Game.ChessBoard"
+                  moduleName = "Chess Game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/faridrahmani/Desktop/xCode%20Projects/Chess%20Game/Chess%20Game/ViewController.swift"
+                  timestampString = "551828622.54381"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Chess_Game.ViewController.chessBoard.getter : Chess_Game.ChessBoard"
+                  moduleName = "Chess Game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/faridrahmani/Desktop/xCode%20Projects/Chess%20Game/Chess%20Game/ViewController.swift"
+                  timestampString = "551828622.548102"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Chess_Game.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Chess_Game.ViewController"
+                  moduleName = "Chess Game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/faridrahmani/Desktop/xCode%20Projects/Chess%20Game/Chess%20Game/ViewController.swift"
+                  timestampString = "551828622.5505691"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Chess_Game.ViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Chess_Game.ViewController&gt;"
+                  moduleName = "Chess Game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/faridrahmani/Desktop/xCode%20Projects/Chess%20Game/Chess%20Game/ViewController.swift"
+                  timestampString = "551828622.5530781"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "29">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Chess Game/Views/ChessBoardView.swift"
+            timestampString = "552548889.774181"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "tap(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
